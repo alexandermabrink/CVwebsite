@@ -1,0 +1,96 @@
+
+#mainheader {
+	text-align: left;
+	padding-left: 20%;
+	opacity: 50%;
+	font-size: 65px;
+	color: black;
+	font-family:'Montserrat',sans-serif;
+}
+
+#description {
+	text-align:center;
+	font-size: 16px;
+	color: #ffffff;
+	font-family: sans-serif;
+}
+
+.menu {
+	position: absolute;
+	display: block;
+	text-align: center;
+	left: 1px;
+	background-color:#cccccc;
+	height:100%;
+	width: 300px
+}
+
+.profilepic {
+	display: block;
+	padding: 3%;
+}
+
+.profilepic h5 {
+	text-align: left;
+	padding-left: 10%;
+	font-size: 24px;
+}
+
+.profilepic img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.select {
+	padding-bottom: 5%;
+}
+
+.select a {
+	
+	color: black;
+	display: block;  /*makes line appear under each other*/
+	text-align: center;
+	padding: 12px 14px;
+	text-decoration: none;
+}
+
+.select a:hover {
+	background-color: #737373 ; /* adds a color when hovering over a page*/
+}
+
+.select a.active {
+	color: #4CAF50;
+}
+
+.socialmedia{
+	display: inline;
+	text-decoration: none;
+}
+
+.socialmedia a {
+	display: inline-grid;
+	padding: 10px;
+}
+
+.socialmedia a:hover {
+	opacity: 50%;
+}
+
+.filter {
+	text-align: left;
+	padding-left: 20%;
+	display: inline;
+}
+
+.filterbutton {
+	
+}
+
+
+
+body {
+	background-color: #999999;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
